@@ -30,10 +30,19 @@ REFERENCES -
 https://dzone.com/articles/difference-between-volatile-and-synchronized-keywo#:~:text=So%2C%20where%20volatile%20only%20synchronizes,the%20ownership%20between%20multiple%20threads.
 https://medium.com/@cancerian0684/singleton-design-pattern-and-how-to-make-it-thread-safe-b207c0e7e368
 ```
+
+### Factory Method Pattern / Factory Object
+```
+* Just like real world factories - create objects
+* Reusable to create objects based on certain properties
+* The factory method design intent is to define an interface for creating objects, but let the sub-classes decide which class to instantiate.
+```
+
 ## Structural Patterns
 `Describe how objects are connected to each other`
 ```
 Relationships - Association, Aggregation, Composition, Inheritance, and Interface.
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20and%20Composition%20are%20subsets,owns%22%20object%20of%20another%20class.&text=Composition%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent.
 ```
 ## Behavioural Patterns
 `How independent objects work towards a common goal`

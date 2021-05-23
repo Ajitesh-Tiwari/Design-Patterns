@@ -1,4 +1,4 @@
-package com.learning.design.patterns.creational;
+package com.learning.design.patterns.creational.singleton;
 
 import java.util.UUID;
 

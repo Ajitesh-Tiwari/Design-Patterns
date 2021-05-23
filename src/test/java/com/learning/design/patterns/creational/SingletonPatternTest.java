@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
 
+import com.learning.design.patterns.creational.singleton.SingletonPattern;
 import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
