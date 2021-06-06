@@ -44,5 +44,30 @@ https://medium.com/@cancerian0684/singleton-design-pattern-and-how-to-make-it-th
 Relationships - Association, Aggregation, Composition, Inheritance, and Interface.
 https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20and%20Composition%20are%20subsets,owns%22%20object%20of%20another%20class.&text=Composition%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent.
 ```
+
+### Facade Pattern
+
+### Adapter Pattern
+```
+* Like adapters used in electronic devices, convert adaptee functionality into one which client can understand.
+* Wrapper on adaptee interface.
+
+Step 1: Design the target interface
+Step 2: Implement the target interface in adapter class
+```
+### Composite Pattern
+```
+* Used to create a tree like structure.
+* Create a base abstract class or interface, defines the overall type.
+* Create composite class having collection of interface objects.
+* Create leaf which implements the interface.
+```
+### Proxy Pattern
+```
+* Class which acts as a subject class.
+* 3 cases where it is used - Remote, Protection, Virtual (resource intensive)
+```
+
+
 ## Behavioural Patterns
 `How independent objects work towards a common goal`
